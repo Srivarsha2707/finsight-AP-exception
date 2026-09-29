@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useApp } from '../../context/AppContext';
 import { mockHindsightCases, mockHindsightPatterns } from '../../data/mockData';
 import { HindsightCase } from '../../types';
-import { recallMemory } from '../../src/services/hindsightService';
+import { recallMemory } from '../../services/hindsightService';
 import {
   History,
   Search,
@@ -74,7 +74,7 @@ export const HindsightView: React.FC = () => {
       setMemories([]);
 
       addToast({
-        type: 'error',
+         type: 'warning',
         title: 'Hindsight Recall Failed',
         message: 'Could not retrieve live memories.'
       });
