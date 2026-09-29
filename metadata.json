@@ -1,0 +1,6 @@
+{
+  "name": "FinSight - AI-Powered AP Exception Intelligence",
+  "description": "Enterprise AI-powered Accounts Payable intelligence and exception-resolution platform. Detect, investigate, resolve, and prevent AP exceptions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
